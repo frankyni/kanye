@@ -17,7 +17,12 @@
 	left: 0;
 }
 
-#mainwrap: {
+.header-bar-box{
+	height: auto;
+	width: 100px;
+}
+
+#mainwrap {
 	width: 900px;
 	margin: 0 auto;
 }
