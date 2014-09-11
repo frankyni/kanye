@@ -21,3 +21,13 @@
 	height: auto;
 	width: 100px;
 }
+
+#mainwrap {
+	width: 900px;
+	margin: 0 auto;
+}
+
+#title {
+	font-size: 12em;
+	text-align: center;
+}
