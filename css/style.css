@@ -155,5 +155,22 @@
 	margin-top: 75px;
 }
 
-/* end of styles for franky add */
+#agaisntHead{
+	text-align: center;
+	font-weight: bold;
+	font-size: 24pt;
+}
 
+#agaisntLogo{
+	display: inline-block;
+}
+
+#agaisntList{
+	display: inline-block;
+}
+
+.agaisntKanye{
+	list-style: none;
+}
+
+/* end of styles for franky add */
