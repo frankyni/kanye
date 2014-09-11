@@ -8,7 +8,7 @@
 
 .header-bar {
 	width: 100%;
-	height: 100px;
+	height: fit;
 	background-color: lightgray;
 	opacity: .75;
 	border-radius: 0 0 5px 5px;
@@ -18,8 +18,19 @@
 }
 
 .header-bar-box{
-	height: auto;
-	width: 100px;
+	height: 50px;
+	width: fit;
+	float: left;
+	opacity: 1;
+}
+
+#logo {
+	margin-left: 10px;
+}
+
+#nav {
+	float: right;
+	margin-right: 10px;
 }
 
 #mainwrap {
