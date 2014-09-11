@@ -86,5 +86,12 @@
 #for {
 	background-image: url(../images/icon.jpg);
 }
+
+#against {
+	background-image: url(../images/devil.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-color: #000;
+}
 /* end n.brown index.html styling */
 
