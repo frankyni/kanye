@@ -113,14 +113,30 @@
 /* start about.html styling */
 
 .about-wrapper {
-	height: 1500px;
-	width: 900px;
+	height: fit;
+	width: 1000px;
 	margin: 0 auto;
 	margin-top: 70px;
 }
 
 #about-title {
 	text-align: center;
+}
+
+.team-member-box{
+	width: 400px;
+	margin-top: 50px;
+	float: left;
+	margin-left: 50px;
+}
+
+.team-member-box img{
+	float: left;
+}
+
+.team-member-box p{
+	font-size: 15px;
+	text-align: justify;
 }
 
 /* end of about.html styling */
