@@ -168,7 +168,15 @@
 }
 
 #agaisntLogo{
-	display: inline-block;
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	border: 1px solid #3f3f3f;
+	background-image: url(../images/devil.jpg);
+	background-position: 50% 50%;
+	background-size: 125%;
+	background-repeat: no-repeat;
+	background-color: black;
 }
 
 #agaisntList{
