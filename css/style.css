@@ -28,10 +28,35 @@
 	margin-left: 10px;
 }
 
+
 #nav {
 	float: right;
-	margin-right: 10px;
+	margin-right: 30px;
 }
+
+#nav ul{
+	list-style-type: none;
+}
+
+#nav li {
+	display: inline;
+	margin-left: 10px;
+	border-radius: 5px;
+}
+
+#nav a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	opacity: 1;
+	transition: color 1s ease;
+}
+
+#nav a:hover{
+	color: gray;
+}
+
+/* End of header and nav styling */
 
 #mainwrap {
 	width: 900px;
