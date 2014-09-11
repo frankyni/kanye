@@ -162,6 +162,7 @@
 }
 
 #agaisntLogo{
+	display: inline-block;
 	width: 200px;
 	height: 200px;
 	border-radius: 100%;
@@ -174,6 +175,7 @@
 }
 
 #agaisntList{
+	width: 75%;
 	display: inline-block;
 }
 
