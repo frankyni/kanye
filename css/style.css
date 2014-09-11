@@ -200,6 +200,8 @@
 #agaisntList{
 	width: 75%;
 	display: inline-block;
+	line-height: 20px;
+	font-size: 12pt;
 }
 
 #forList{
