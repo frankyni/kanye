@@ -89,7 +89,6 @@
 	width: 375px;
 	height: 375px;
 	border-radius: 100%;
-	border: 1px solid #3f3f3f;
 	margin: 60px auto;
 	transition: box-shadow 1s ease;
 }
