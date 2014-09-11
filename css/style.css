@@ -227,4 +227,18 @@
 	margin-bottom: 5px;
 }
 
+#btmWrapper{
+	width: 100%;
+}
+
+#videobox{
+	display: inline-block;
+	width: 200px;
+}
+
+#kanyeStories{
+	display: inline-block;
+	width: 200px;
+}
+
 /* end of styles for franky add */
