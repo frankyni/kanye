@@ -201,6 +201,10 @@
 	display: inline-block;
 }
 
+#forList{
+	display: inline-block;
+}
+
 .agaisntKanye{
 	list-style: none;
 }
