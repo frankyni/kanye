@@ -231,16 +231,16 @@
 
 #btmWrapper{
 	width: 100%;
+	}
+
+#agtvideobox{
+	width: 450px;
+	float: left;
 }
 
-#videobox{
-	display: inline-block;
-	width: 200px;
-}
 
-#kanyeStories{
-	display: inline-block;
-	width: 200px;
+#agtkanyeStories{
+	float: right;
 }
 
 .forKanye{
