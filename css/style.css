@@ -201,8 +201,6 @@
 #agaisntList{
 	width: 75%;
 	display: inline-block;
-	line-height: 20px;
-	font-size: 12pt;
 }
 
 #forList{
@@ -211,6 +209,7 @@
 
 .agaisntKanye{
 	list-style: none;
+	margin-bottom: 5px;
 }
 
 /* end of styles for franky add */
