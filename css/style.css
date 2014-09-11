@@ -80,3 +80,7 @@
 #question {
 	text-align: center;
 }
+
+.divwrapper{
+	float:left;
+}
