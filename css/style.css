@@ -97,12 +97,12 @@
 	text-align: center;
 }
 
-<<<<<<< HEAD
+
 .divwrapper{
 	float:left;
 	width:400px;
 }
-=======
+
 #for {
 	background-image: url(../images/icon.jpg);
 }
@@ -115,9 +115,6 @@
 }
 /* end n.brown index.html styling */
 
-<<<<<<< HEAD
->>>>>>> e19e7ce10b43a499ad6bc6fb40d6bd97ab57230d
-=======
 
 /* start about.html styling */
 
@@ -134,4 +131,13 @@
 
 /* end of about.html styling */
 
->>>>>>> be85984c8de261c429c0cbf9e25b79ee06584e80
+/* styles for agaisnt Kanye.html franky */
+
+.mainContext{
+	width: 900px;
+	margin: 0 auto;
+	margin-top: 75px;
+}
+
+/* end of styles for franky */
+
