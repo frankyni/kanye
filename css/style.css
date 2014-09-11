@@ -85,6 +85,10 @@
 	color: #ffd700;
 }
 
+#choices {
+	float: left;
+}
+
 .circle {
 	width: 375px;
 	height: 375px;
