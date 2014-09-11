@@ -178,6 +178,24 @@
 	background-color: black;
 }
 
+#forLogo{
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	border: 1px solid #3f3f3f;
+	background-image: url(../images/icon.jpg);
+	background-position: 50% 50%;
+	background-size: 125%;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+
+#forHead{
+	text-align: center;
+	font-weight: bold;
+	font-size: 24pt;
+}
+
 #agaisntList{
 	display: inline-block;
 }
