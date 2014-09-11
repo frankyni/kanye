@@ -1,4 +1,4 @@
-/* Maneesh's nav bar begins here */
+/* Start nav bar styling */
 
 #wrapper {
 	width: 900px;
@@ -115,4 +115,23 @@
 }
 /* end n.brown index.html styling */
 
+<<<<<<< HEAD
 >>>>>>> e19e7ce10b43a499ad6bc6fb40d6bd97ab57230d
+=======
+
+/* start about.html styling */
+
+.about-wrapper {
+	height: 1500px;
+	width: 900px;
+	margin: 0 auto;
+	margin-top: 70px;
+}
+
+#about-title {
+	text-align: center;
+}
+
+/* end of about.html styling */
+
+>>>>>>> be85984c8de261c429c0cbf9e25b79ee06584e80
