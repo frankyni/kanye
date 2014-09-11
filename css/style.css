@@ -126,7 +126,9 @@
 
 #for {
 	background-image: url(../images/icon.jpg);
-	width: 380px;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-color: #000;
 }
 
 #against {
