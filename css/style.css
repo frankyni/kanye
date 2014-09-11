@@ -59,6 +59,7 @@
 
 /* End of header and nav styling */
 
+/* n.brown index.html styling */
 #mainwrap {
 	width: 900px;
 	margin: 0 auto;
@@ -82,6 +83,15 @@
 	text-align: center;
 }
 
+<<<<<<< HEAD
 .divwrapper{
 	float:left;
+	width:400px;
 }
+=======
+#for {
+	background-image: url(../images/icon.jpg);
+}
+/* end n.brown index.html styling */
+
+>>>>>>> e19e7ce10b43a499ad6bc6fb40d6bd97ab57230d
