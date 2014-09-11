@@ -58,6 +58,7 @@
 
 /* End of header and nav styling */
 
+/* n.brown index.html styling */
 #mainwrap {
 	width: 900px;
 	margin: 0 auto;
@@ -80,3 +81,9 @@
 #question {
 	text-align: center;
 }
+
+#for {
+	background-image: url(../images/icon.jpg);
+}
+/* end n.brown index.html styling */
+
