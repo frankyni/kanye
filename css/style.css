@@ -186,6 +186,7 @@
 }
 
 #agaisntLogo{
+	display: inline-block;
 	width: 200px;
 	height: 200px;
 	border-radius: 100%;
@@ -217,6 +218,7 @@
 }
 
 #agaisntList{
+	width: 75%;
 	display: inline-block;
 }
 
@@ -226,6 +228,21 @@
 
 .agaisntKanye{
 	list-style: none;
+	margin-bottom: 5px;
+}
+
+#btmWrapper{
+	width: 100%;
+	}
+
+#agtvideobox{
+	width: 450px;
+	float: left;
+}
+
+
+#agtkanyeStories{
+	float: right;
 }
 
 .forKanye{
