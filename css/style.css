@@ -66,13 +66,17 @@
 #title {
 	font-size: 12em;
 	text-align: center;
+	margin: 150px auto 0 auto;
 }
 
 .circle {
-	float: left;
 	width: 375px;
 	height: 375px;
 	border-radius: 100%;
 	border: 1px solid #3f3f3f;
-	margin-left: 40px;
+	margin: 60px auto;
+}
+
+#question {
+	text-align: center;
 }
