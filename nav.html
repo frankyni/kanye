@@ -1,49 +1,57 @@
-<!DOCTYPE html>
+
+<!DOCTYPE HTML>
 <html>
 <head>
-	<title></title>
-	<link rel="stylesheet" href="css/style.css" type="text/css">
+<meta charset="utf-8" />
+<title>jQuery Yes or No survey</title>
+<link rel="stylesheet" href="jquery.ynosurvey.css" />
 </head>
+
 <body>
-	
-	<!--nav header bar by Maneesh -->
 
-	<div class="header-bar">
-		
-		<div class="header-bar-box" id="logo">
-			
-			<p>
-				logo goes here
-			</p>
-
-		</div>
-
-		<div class="header-bar-box" id="nav">
-			
-			<nav>
-
-				<ul>
-					<li>
-						<a href="index.html">home</a>
-					</li>
-					<li>
-						<a href="#">for</a>
-					</li>
-					<li>
-						<a href="#">against</a>
-					</li>
-					<li>
-						<a href="#">about us</a>
-					</li>
-				</ul>
-
-			</nav>
-
-		</div>
-
+<div id="jqyn_survey" class="jqyn_survey">
+	<div class="fullbar">
+		<div class="yesbar"></div>
+		<div class="nobar"></div>
 	</div>
-
-	<!-- End of nav bar -->
-
+	<div class="totalpercent">
+		<div class="totalsi">Yes: <span>50%</span></div>
+		<div class="totalno">No: <span>50%</span></div>
+	</div>
+	<div class="total_votes">Total Votes: <span>0</span></div>
+	<div class="jqyn_vote">
+		<div class="jyqn_inner">
+			<a href="javascript:void(0);" class="jqyn_vote voteyes">VOTE YES</a>
+			<a href="javascript:void(0);" class="jqyn_vote voteno">VOTE NO</a>
+			<div class="jqyn_clear"></div>
+		</div>
+	</div>
+</div>
+<div id="jqyn_survey2" class="jqyn_survey">
+	<div class="fullbar">
+		<div class="yesbar"></div>
+		<div class="nobar"></div>
+	</div>
+	<div class="totalpercent">
+		<div class="totalsi">Yes: <span>50%</span></div>
+		<div class="totalno">No: <span>50%</span></div>
+	</div>
+	<div class="total_votes">Total Votes: <span>0</span></div>
+	<div class="jqyn_vote">
+		<div class="jyqn_inner">
+			<a href="javascript:void(0);" class="jqyn_vote voteyes">VOTE YES</a>
+			<a href="javascript:void(0);" class="jqyn_vote voteno">VOTE NO</a>
+			<div class="jqyn_clear"></div>
+		</div>
+	</div>
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<script src="jquery.ynosurvey.js"></script>
+<script>
+$(document).ready(function(){
+	$("#jqyn_survey").ynosurvey();
+	$("#jqyn_survey2").ynosurvey();
+});
+</script>
 </body>
 </html>
