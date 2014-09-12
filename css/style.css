@@ -60,6 +60,21 @@
 
 /* End of header and nav styling */
 
+/* begin poll styling */
+
+.poll {
+	width: 100%;
+	text-align: center;
+	background-color: lightgray;
+}
+
+.poll-box {
+	width: 500px;
+	background-color: blue;
+}
+
+/* End poll styling */
+
 /* n.brown index.html styling */
 #mainwrap {
 	width: 900px;

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Kanye: For or Against??</title>
+		<link rel="stylesheet" href="css/style.css" type="text/css">
+		<link rel="stylesheet" href="http://www.gleenk.com/demo/jquery/ynosurvey/jquery.ynosurvey.css" />
+
+	</head>
+	<body>
+		<!--nav header bar by Maneesh -->
+	<div class="header-bar">
+		<div class="header-bar-box" id="logo">		
+			<img src="images/logo_files/logo.png">
+		</div>
+
+			<div class="header-bar-box" id="nav">
+				<nav>
+					<ul>
+						<li>
+							<a href="index.html">home</a>
+						</li>
+						<li>
+							<a href="forkanye.html">for</a>
+						</li>
+						<li>
+							<a href="agaisntKanye.html">against</a>
+						</li>
+						<li>
+							<a href="about.html">about us</a>
+						</li>
+					</ul>
+				</nav>
+			</div>	
+
+	</div>
+	<!-- End of nav bar -->
+
+	<div id="mainwrap">
+			
+			
+				<h1 id="title">KANYE</h1>
+				
+				<hr>
+
+				<section id="choices">
+
+					<a href="forkanye.html">
+						<div id="for" class="circle">
+						</div>
+					</a>
+					
+					<div id="question">
+						<img src="images/question.png">
+					</div>
+
+					<a href="agaisntKanye.html">
+						<div id="against" class="circle">
+						</div>
+					</a>
+
+				</section>
+
+				
+	</div>
+
+	<div class="poll-box">
+					test
+				</div>
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<script src="http://www.gleenk.com/demo/jquery/ynosurvey/jquery.ynosurvey.js"></script>
+<script>
+$(document).ready(function(){
+	$("#jqyn_survey").ynosurvey();
+	$("#jqyn_survey2").ynosurvey();
+});
+</script>
+</body>
+</html>
+
+
+	</div class="poll">
+
+		<div id="jqyn_survey" class="jqyn_survey">
+			
+			<div class="fullbar">
+				<div class="yesbar">
+				</div>
+				<div class="nobar">
+				</div>
+			</div>
+
+			<div class="totalpercent">
+				<div class="totalsi">Yes: <span>50%</span>
+				</div>
+				<div class="totalno">No: <span>50%</span>
+				</div>
+			</div>
+
+			<div class="total_votes">Total Votes: <span>0</span>
+			</div>
+
+			<div class="jqyn_vote">
+
+				<div class="jyqn_inner">
+					
+					<a href="javascript:void(0);" class="jqyn_vote voteyes">VOTE YES</a>
+					<a href="javascript:void(0);" class="jqyn_vote voteno">VOTE NO</a>
+					
+					<div class="jqyn_clear">
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+		<div id="jqyn_survey2" class="jqyn_survey">
+		</div>
+
+	</div>
