@@ -231,18 +231,48 @@
 	margin-bottom: 5px;
 }
 
-#btmWrapper{
+#agtbtmWrapper{
 	width: 100%;
 	}
 
 #agtvideobox{
 	width: 450px;
-	float: left;
 }
 
 
 #agtkanyeStories{
 	float: right;
+	margin-left: 20px;
+	width: 450px;
+	text-align: center;
+	font-size: 16pt;
+	padding-top: 50px;
+}
+
+#agtkanyeStories h4{
+	font-weight: bold;
+	font-size: 18pt;
+}
+
+#agtkanyeStories ul{
+	list-style: none;
+	line-height: 40px;
+	padding-right: 50px
+}
+
+#agtkanyeStories ul a{
+	text-decoration: none;
+	color: #1A2FE8;
+
+}
+
+#agtkanyeStories ul a:visited{
+	color: #1A2FE8;
+}
+
+#agtkanyeStories ul a:hover{
+	box-shadow: 0 0 8px #000;
+	font-weight: bold;
 }
 
 .forKanye{
